@@ -179,13 +179,13 @@ export class NavbarComponent implements OnInit {
 
         this.mobile_menu_visible = 0;
     };
-    sidebarToggle() {
-        if (this.sidebarVisible === false) {
-            this.sidebarOpen();
-        } else {
-            this.sidebarClose();
-        }
-    }
+    // sidebarToggle() {
+    //     if (this.sidebarVisible === false) {
+    //         this.sidebarOpen();
+    //     } else {
+    //         this.sidebarClose();
+    //     }
+    // }
 
     getTitle() {
         let titlee: any = this.location.prepareExternalUrl(this.location.path());

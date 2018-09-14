@@ -20,10 +20,10 @@ export class AuthLayoutComponent implements OnInit {
 
     this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
     this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
-      this.sidebarClose();
+     // this.sidebarClose();
     });
   }
-  sidebarOpen() {
+/*   sidebarOpen() {
       const toggleButton = this.toggleButton;
       const body = document.getElementsByTagName('body')[0];
       setTimeout(function(){
@@ -65,5 +65,5 @@ export class AuthLayoutComponent implements OnInit {
         document.getElementsByClassName("close-layer")[0].remove();
           this.sidebarClose();
       }
-  }
+  } */
 }

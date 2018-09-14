@@ -12,6 +12,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { PanelsComponent } from './panels/panels.component';
 import { SweetAlertComponent } from './sweetalert/sweetalert.component';
 import { TypographyComponent } from './typography/typography.component';
+import {ComponenteAdministrarComponent} from './administrar/componenteadministrar.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { TypographyComponent } from './typography/typography.component';
   ],
   declarations: [
       ButtonsComponent,
+      ComponenteAdministrarComponent,
       GridSystemComponent,
       IconsComponent,
       NotificationsComponent,

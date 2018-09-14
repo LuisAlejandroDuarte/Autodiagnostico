@@ -99,7 +99,7 @@ export class MaterialModule {}
         SidebarModule,
         NavbarModule,
         FooterModule,
-        FixedpluginModule
+        FixedpluginModule        
     ],
     declarations: [
         AppComponent,
